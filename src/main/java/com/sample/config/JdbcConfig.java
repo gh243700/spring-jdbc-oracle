@@ -36,5 +36,5 @@ public class JdbcConfig {
     return new JdbcTemplate(basicDataSource());
   }
 
-  
+
 }
