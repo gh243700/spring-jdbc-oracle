@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring-jdbc-oracle:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fa5f092d-3280-443b-858f-5a4cae2dcc85" name="Default Changelist" comment="&quot;commit&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/config/ServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/repository/Impl/EmpRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/service/impl/EmpServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/ojdbc8 .jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/WEB-INF/views/hr/count.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/config/ApiWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/config/ControllerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/config/MainWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/config/WebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/controller/EmpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc8_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/config/JdbcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/config/RepositoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/config/RepositoryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/repository/EmpRepositoryI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/repository/EmpRepositoryI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/service/EmpServiceI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/service/EmpServiceI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WEB-INF/resources/database/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/lib/ojdbc8 .jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WEB-INF/resources/lib/ojdbc8 .jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sample/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/config/JdbcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sample/config/JdbcConfig.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +51,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -65,11 +81,12 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/lib/ojdbc8 .jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/WEB-INF/resources/lib/ojdbc8 .jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,7 +95,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15059347" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -91,6 +108,7 @@
       <recent name="C:\dev\study\spring-jdbc-oracle\src\main\resources\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\study\spring-jdbc-oracle\src\main\WEB-INF" />
       <recent name="C:\dev\study\spring-jdbc-oracle\src\main\resources\lib" />
     </key>
   </component>
@@ -106,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.421">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.App" />
       <module name="spring-jdbc-oracle" />
@@ -133,6 +151,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 8.5.421" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.421" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="spring-jdbc-oracle:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/spring_jdbc_oracle_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-jdbc-oracle" />
+        <option name="HTTP_PORT" value="8090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52814" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring-jdbc-oracle:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.RepositoryConfig" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.421" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
@@ -157,7 +254,7 @@
       <workItem from="1565796868085" duration="232000" />
       <workItem from="1565797133545" duration="4985000" />
       <workItem from="1565929557058" duration="2375000" />
-      <workItem from="1566174403658" duration="8244000" />
+      <workItem from="1566174403658" duration="25791000" />
     </task>
     <servers />
   </component>

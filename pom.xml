@@ -7,6 +7,7 @@
   <groupId>com.sample</groupId>
   <artifactId>spring-jdbc-oracle</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
   <name>spring-jdbc-oracle</name>
   <!-- FIXME change it to the project's website -->
@@ -18,20 +19,20 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <org.springframwork.version>5.1.9.RELEASE</org.springframwork.version>
   </properties>
-
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>6.0</version>
+      <scope>provided</scope>
+    </dependency>
     <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.8</version>
       <scope>provided</scope>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
-    <dependency>
-      <groupId>commons-dbcp</groupId>
-      <artifactId>commons-dbcp</artifactId>
-      <version>1.4</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
     <dependency>
