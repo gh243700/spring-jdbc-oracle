@@ -12,7 +12,7 @@ public interface EmpServiceI<EmpVo>{
 
   List<EmpVo> getEmpList();
 
-  EmpVo getEmpINfo(int empid);
+  EmpVo getEmpInfo(int empid);
 
   void updateEmp(EmpVo emp);
 
@@ -20,10 +20,10 @@ public interface EmpServiceI<EmpVo>{
 
   void deleteEmp(int empid, String email);
 
-  List<Map<String,String>> getAllJobId();
+  List<Map<String,Object>> getAllJobId();
 
-  List<Map<String,String>> getAllManagerId();
+  List<Map<String,Object>> getAllManagerId();
 
-  List<Map<String,String>> getAllDeptId();
+  List<Map<String,Object>> getAllDeptId();
 
 }
